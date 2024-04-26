@@ -1,0 +1,561 @@
+*{
+    padding: 0;
+    border: 0;
+    margin:0;
+
+}
+html, body{
+    height: 100%;
+    width: 100%;
+
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo) ;
+    font-family: 'Raleway';
+    line-height: 1;
+    gap:88px;
+
+}
+
+.menu__list{
+    display: flex;
+    justify-content: flex-end ;
+    gap:25px;
+    padding: 20px 60px 10px 2px;
+    list-style: none;
+
+}
+ nav{
+    background-color: #F5F5F5;
+ }
+
+.title{
+    background: #F5F5F5;
+    width: 100%;
+
+}
+
+.title__container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap:20px;
+height: 246px;
+
+
+}
+
+.title__div{
+display: flex;
+justify-content: space-between;
+
+}
+
+.title__bio {
+
+font-size: 38px;
+font-weight: 700;
+gap: 14px;
+text-align: left;
+padding-bottom: 22px;
+padding-top: 40px;
+height: 120px;
+width: 100%;
+
+
+}
+
+.title__network{
+ gap:10px;
+}
+
+.title__subsection{
+font-family: 'Raleway';
+font-size: 22px;
+font-weight: 400;
+line-height: 25.83px;
+text-align: left;
+
+
+}
+
+
+.title__div{
+display: flex;
+justify-content: space-between;
+flex-direction: row-reverse;
+padding: 100px;
+height:368px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+
+
+.title__profile{
+border-radius: 50%;
+width: 368px;
+height: 368px;
+gap: 0px;
+opacity: 0px;
+padding-right: 10px;
+
+}
+
+.title__network{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+a{
+    color: #464646;
+    text-decoration: none;
+}
+
+.about__container{
+
+  gap: 10px;
+  opacity: 0px;
+  padding: 100px;
+  width: 100%;
+
+}
+
+section.about {
+    display: flex;
+    justify-content: center;
+    background-color: #EAF2FD;
+    gap:32px;
+    height: 383px;
+
+
+}
+
+section.skills {
+    background-color: rgb(245, 245, 245) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:10px;
+    height:auto;
+}
+
+#skills{
+display: flex;
+justify-content: center;
+font-family: 'Raleway';
+font-size: 32px;
+font-weight: 700;
+line-height: 27.57px;
+padding: 55px;
+flex-wrap: wrap;
+
+}
+
+
+
+ul,li{
+    list-style: none;
+
+}
+
+
+.skills__line{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-self: center;
+    gap:15px;
+    flex-flow: row wrap;
+   
+    
+
+}
+
+.skills__box{
+
+display: flex;
+justify-content: flex-start;
+align-items: flex-end;
+background-color: white;
+width:  176px;
+height:  174px;
+gap: 15px;
+opacity: 0px;
+
+
+
+}
+
+section.hobbies{
+    background-color: rgb(245, 245, 245);
+    display:flex;
+    height:auto;
+
+}
+
+.titlehobbies{
+align-items: center;
+justify-self: center;
+align-self: center;
+font-family: 'Raleway';
+font-size: 32px;
+font-weight: 700;
+line-height: 37.57px;
+text-align: center;
+padding: 30px;
+
+}
+
+#hobbies{
+    display: flex;
+    flex-direction: column;
+    padding: 80px 0px 80px 0px;
+    gap:15px;
+
+
+}
+
+
+.hobbies__line{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-self: center;
+    gap:15px;
+    flex-flow: row wrap;
+}
+
+
+.hobbies__box{
+ display: flex;
+ justify-content: flex-start;
+ align-items: flex-end;
+ background-color: white;
+ width:  176px;
+ height:  174px;
+ padding: 16px 0px 0px 0px;
+ gap: 8px;
+ opacity: 0px;
+
+}
+
+section.academic{
+   background-color: rgb(245, 245, 245);
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   background: #EAF2FD;
+   padding: 52px;
+   padding-bottom: 150px;
+
+}
+
+#formacao{
+    padding: 12px;
+}
+
+.academic__courses{
+  display: flex;
+  justify-content: center;
+  gap:16px;
+  flex-flow: row wrap;
+
+
+}
+
+.academic__courses__box{
+   width: 368px;
+   height: 347px;
+   background-color: white;
+
+}
+#xp{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.experience{
+    height: auto;
+     gap: 42px;
+    background-color: #F5F5F5;
+    padding: 50px 25px 30px 50px;
+
+}
+.experience__section__title{
+    align-self: flex-end;
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+.experiencie__box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color:  #F5F5F5;
+  
+    padding: 25px 25px 20px 20px;
+}
+
+.experiencie__box__ChallengeOracle{
+display: flex;
+flex-direction: row-reverse;
+justify-content: space-around;
+align-items: center;
+text-align: center;
+padding: 15px 15px 40px 20px;
+
+}
+
+.experience__info{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 8px;
+} 
+
+section.formcontato{
+    background-color: #EAF2FD;
+   height: 700px;
+   padding: 80px;
+
+   }
+
+.formcontato__form{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap:15px;
+  padding: 45px;
+  padding-left: 0;
+
+}
+
+.formcontato__text{
+    padding: 35px;
+    gap:20px;
+   text-align: flex-start;
+
+}
+
+.formcontato__img{
+width: 90%;
+padding: 40px;
+}
+
+#contato{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+
+
+}
+
+.formcontato__input{
+   font-family: 'Raleway';
+    height: 40px;
+    padding: 8px 0px 0px 0px;
+    gap: 7px;
+    border-radius: 4px 0px 0px 0px;
+
+}
+
+.formcontato__botao{
+background-color:#EAF2FD ;
+
+}
+
+section.footer{
+display: flex;
+justify-content: center;
+background-color: #FFFFFF;
+bottom: 0;
+left: 0;
+  /* height: 2.5rem;
+  position: relative; */
+}
+
+.footer__rodape{
+   width: 100%;
+   height: 80px;
+   bottom: 0;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   padding-top: 20px;
+}
+button{
+    background-color: rgb(23, 116, 221);
+    width: 90px;
+    height: 30px;
+    color: #F5F5F5;
+    cursor: pointer;
+
+}
+
+.experiencia__botao--repo{
+    background-color: white;
+    color:rgba(44, 122, 211, 0.897);
+    border: rgba(44, 122, 211, 0.897) 1.5px solid;
+    cursor: pointer;
+}
+
+.experience__description{
+    display: flex;
+    justify-content: space-around;
+    gap:11px;
+}
+
+.formcontato__botao{
+background-color: rgb(44, 110, 252);
+width: 125px;
+border: white 1px solid;
+
+
+}
+
+@media (max-width: 768px) {
+
+    .menu__list{
+        display: none;
+
+    }
+    .formcontato__img{
+        display: none;
+    }
+    .title__div{
+        display: flex;
+        text-align: left;
+        padding: 12px;
+        height: 318px;
+
+
+    }
+    .title__profile{
+        width: 120px;
+        height: 120px;
+        padding-top: 10px;
+
+    }
+    .title__bio{
+        font-size: 26px;
+        padding-top:0;
+        padding-bottom: 0;
+        height: auto;
+
+    }
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .title__subsection{
+        font-size: 18px;
+    }
+
+
+    .about__container{
+        padding: 12px;
+    }
+
+    .experiencie__box{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+
+
+        
+    }
+    .experiencie__box__ChallengeOracle{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .experience__info{
+     display: flex;
+     flex-direction: column;
+     font-family: 'Raveway';
+   
+     
+    
+    }
+    .experience__img{
+        width: 350px;
+    }
+    section.formcontato{
+        padding: 10px;
+    }
+  
+}
+
+@media (min-width: 768px) {
+
+    .menu__title{
+        display: none;
+
+    }
+    .menu__list__item__contato{
+        display: none;
+    }
+
+
+}
+
+@media (max-width: 425px) {
+    .title{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+    .title__bio{
+        font-size: 23px;
+        padding-top:0;
+        padding-bottom: 0;
+        height: auto;
+
+    }
+
+    .title__div{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        padding: 12px;
+        height: auto;
+
+    }
+    .title__profile{
+        width: 98px;
+        height: 98px;
+        padding-top: 10px;
+
+    }
+
+    .title__subsection{
+        font-size: 20px;
+    }
+
+    .menu__list__item__contato{
+    padding-top: 12px;
+    }
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+
+
+}
